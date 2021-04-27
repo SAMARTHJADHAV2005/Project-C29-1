@@ -19,9 +19,9 @@ function preload(){
 function setup() {
   createCanvas(900,400);
    
-  
-  world = Engine.world;
   engine = Engine.create();
+  world = Engine.world;
+ 
 
   ground = new Ground();
   stand1 = new Stand(380,300,270,10);
